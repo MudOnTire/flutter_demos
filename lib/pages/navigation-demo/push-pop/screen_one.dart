@@ -7,7 +7,7 @@ class ScreenArguments {
   ScreenArguments(this.title, this.message);
 }
 
-class ScreenOne extends StatelessWidget {
+class PPScreenOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
