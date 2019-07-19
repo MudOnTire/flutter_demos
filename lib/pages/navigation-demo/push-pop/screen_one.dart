@@ -7,7 +7,7 @@ class ScreenArguments {
   ScreenArguments(this.title, this.message);
 }
 
-class FirstScreen extends StatelessWidget {
+class ScreenOne extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,7 +16,7 @@ class FirstScreen extends StatelessWidget {
         child: RaisedButton(
           child: Text('Open route'),
           onPressed: () {
-            Navigator.pushNamed(context, '/navigation/second',
+            Navigator.pushNamed(context, '/navigation-demos/push-pop/screen-two',
                 arguments:
                     ScreenArguments('Argument Title', 'Argument Message'));
           },

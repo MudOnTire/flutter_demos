@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_layout_demo/pages/navigation-demo/screen_one.dart';
+import 'package:flutter_layout_demo/pages/navigation-demo/push-pop/screen_one.dart';
 
-class SecondScreen extends StatelessWidget {
+class ScreenTwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ScreenArguments args = ModalRoute.of(context).settings.arguments;

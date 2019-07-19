@@ -10,13 +10,13 @@ class Home extends StatelessWidget {
           ListTile(
             title: Text('Layout Demo'),
             onTap: () {
-              Navigator.pushNamed(context, '/layout');
+              Navigator.pushNamed(context, '/layout-demo');
             },
           ),
           ListTile(
-            title: Text('Navigation Demo'),
+            title: Text('Navigation Demos'),
             onTap: () {
-              Navigator.pushNamed(context, '/navigation');
+              Navigator.pushNamed(context, '/navigation-demos');
             },
           )
         ],
