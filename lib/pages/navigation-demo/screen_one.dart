@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
+class ScreenArguments {
+  final String title;
+  final String message;
+
+  ScreenArguments(this.title, this.message);
+}
+
 class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -9,7 +16,9 @@ class FirstScreen extends StatelessWidget {
         child: RaisedButton(
           child: Text('Open route'),
           onPressed: () {
-            Navigator.pushNamed(context, '/second');
+            Navigator.pushNamed(context, '/navigation/second',
+                arguments:
+                    ScreenArguments('Argument Title', 'Argument Message'));
           },
         ),
       ),
