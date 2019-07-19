@@ -21,6 +21,13 @@ class NavigationDemos extends StatelessWidget {
               Navigator.pushNamed(
                   context, '/navigation-demos/returning-data/screen-one');
             },
+          ),
+          ListTile(
+            title: Text('Send data to a new screen'),
+            onTap: () {
+              Navigator.pushNamed(
+                  context, '/navigation-demos/data-to-new-screen/screen-one');
+            },
           )
         ],
       ),
