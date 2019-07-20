@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_layout_demo/pages/navigation-demo/data-to-new-screen/screen_two.dart';
+import 'package:flutter_layout_demo/pages/navigation/data-to-new-screen/screen_two.dart';
 
 class Todo {
   final String title;

@@ -16,7 +16,7 @@ class PPScreenOne extends StatelessWidget {
         child: RaisedButton(
           child: Text('Open route'),
           onPressed: () {
-            Navigator.pushNamed(context, '/navigation-demos/push-pop/screen-two',
+            Navigator.pushNamed(context, '/navigation/push-pop/screen-two',
                 arguments:
                     ScreenArguments('Argument Title', 'Argument Message'));
           },

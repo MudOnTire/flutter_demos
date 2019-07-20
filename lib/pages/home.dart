@@ -8,21 +8,27 @@ class Home extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           ListTile(
-            title: Text('Layout Demo'),
+            title: Text('Layout'),
             onTap: () {
-              Navigator.pushNamed(context, '/layout-demo');
+              Navigator.pushNamed(context, '/layout');
             },
           ),
           ListTile(
-            title: Text('Navigation Demos'),
+            title: Text('Animation'),
             onTap: () {
-              Navigator.pushNamed(context, '/navigation-demos');
+              Navigator.pushNamed(context, '/animation');
             },
           ),
           ListTile(
-            title: Text('Fetch Data Demo'),
+            title: Text('Navigation'),
             onTap: () {
-              Navigator.pushNamed(context, '/request-demo');
+              Navigator.pushNamed(context, '/navigation');
+            },
+          ),
+          ListTile(
+            title: Text('Network'),
+            onTap: () {
+              Navigator.pushNamed(context, '/request');
             },
           ),
         ],

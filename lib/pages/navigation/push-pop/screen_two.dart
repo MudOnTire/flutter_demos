@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_layout_demo/pages/navigation-demo/push-pop/screen_one.dart';
+import 'package:flutter_layout_demo/pages/navigation/push-pop/screen_one.dart';
 
 class PPScreenTwo extends StatelessWidget {
   @override

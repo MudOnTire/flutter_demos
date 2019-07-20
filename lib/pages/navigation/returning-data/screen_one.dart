@@ -13,7 +13,7 @@ class SelectionButton extends StatelessWidget {
 
   _navigateAndDisplaySelection(BuildContext context) async {
     final result = await Navigator.pushNamed(
-        context, '/navigation-demos/returning-data/screen-two');
+        context, '/navigation/returning-data/screen-two');
 
     // .. is cascade notation, allows you to call several methods on the same object without repeating it
     Scaffold.of(context)

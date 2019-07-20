@@ -12,21 +12,21 @@ class NavigationDemos extends StatelessWidget {
             subtitle: Text('With paramters'),
             onTap: () {
               Navigator.pushNamed(
-                  context, '/navigation-demos/push-pop/screen-one');
+                  context, '/navigation/push-pop/screen-one');
             },
           ),
           ListTile(
             title: Text('Return data from a screen'),
             onTap: () {
               Navigator.pushNamed(
-                  context, '/navigation-demos/returning-data/screen-one');
+                  context, '/navigation/returning-data/screen-one');
             },
           ),
           ListTile(
             title: Text('Send data to a new screen'),
             onTap: () {
               Navigator.pushNamed(
-                  context, '/navigation-demos/data-to-new-screen/screen-one');
+                  context, '/navigation/data-to-new-screen/screen-one');
             },
           )
         ],
