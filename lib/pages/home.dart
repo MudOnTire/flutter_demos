@@ -28,7 +28,7 @@ class Home extends StatelessWidget {
           ListTile(
             title: Text('Network'),
             onTap: () {
-              Navigator.pushNamed(context, '/request');
+              Navigator.pushNamed(context, '/network');
             },
           ),
         ],
