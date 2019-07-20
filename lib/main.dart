@@ -8,6 +8,7 @@ import 'package:flutter_layout_demo/pages/navigation-demo/push-pop/screen_one.da
 import 'package:flutter_layout_demo/pages/navigation-demo/push-pop/screen_two.dart';
 import 'package:flutter_layout_demo/pages/navigation-demo/returning-data/screen_one.dart';
 import 'package:flutter_layout_demo/pages/navigation-demo/returning-data/screen_two.dart';
+import 'package:flutter_layout_demo/pages/request-demo/post-app.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
           '/navigation-demos/returning-data/screen-one': (context) => RDScreenOne(),
           '/navigation-demos/returning-data/screen-two': (context) => RDScreenTwo(),
           '/navigation-demos/data-to-new-screen/screen-one': (context) => DNSScreenOne(),
-          '/navigation-demos/data-to-new-screen/screen-two': (context) => DNSScreenTwo()
+          '/request-demo': (context) => PostApp()
         },
         theme: ThemeData(
           primarySwatch: Colors.blue,

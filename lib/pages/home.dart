@@ -18,7 +18,13 @@ class Home extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, '/navigation-demos');
             },
-          )
+          ),
+          ListTile(
+            title: Text('Fetch Data Demo'),
+            onTap: () {
+              Navigator.pushNamed(context, '/request-demo');
+            },
+          ),
         ],
       ),
     );
