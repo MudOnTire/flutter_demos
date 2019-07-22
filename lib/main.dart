@@ -3,6 +3,9 @@ import 'package:flutter_layout_demo/pages/animation/animate-container-properties
 import 'package:flutter_layout_demo/pages/animation/demos.dart';
 import 'package:flutter_layout_demo/pages/animation/fade-widget/FadeInOutApp.dart';
 import 'package:flutter_layout_demo/pages/animation/route-transition/screen-one.dart';
+import 'package:flutter_layout_demo/pages/design/Demos.dart';
+import 'package:flutter_layout_demo/pages/design/drawer-app/DrawerApp.dart';
+import 'package:flutter_layout_demo/pages/design/snackbar/SnackbarApp.dart';
 import 'package:flutter_layout_demo/pages/home.dart';
 import 'package:flutter_layout_demo/pages/layout/layout.dart';
 import 'package:flutter_layout_demo/pages/navigation/data-to-new-screen/screen_one.dart';
@@ -24,6 +27,10 @@ class MyApp extends StatelessWidget {
         routes: {
           // layout
           '/layout': (context) => LayoutDemo(),
+          // design
+          '/design': (context) => DesignDemos(),
+          '/design/drawer-app': (context) => DrawerApp(),
+          '/design/snackbar': (context) => SnackbarApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),
