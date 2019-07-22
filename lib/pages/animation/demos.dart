@@ -10,10 +10,21 @@ class AnimationDemos extends StatelessWidget {
           ListTile(
             title: Text('Animate a page route transition'),
             onTap: () {
-              Navigator.pushNamed(
-                  context, '/animation/page-transition');
+              Navigator.pushNamed(context, '/animation/page-transition');
             },
-          )
+          ),
+          ListTile(
+            title: Text('Animated Container App'),
+            onTap: () {
+              Navigator.pushNamed(context, '/animation/animated-container');
+            },
+          ),
+          ListTile(
+            title: Text('Fade a widget in and out'),
+            onTap: () {
+              Navigator.pushNamed(context, '/animation/fade-widget');
+            },
+          ),
         ],
       ),
     );
