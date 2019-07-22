@@ -5,6 +5,7 @@ import 'package:flutter_layout_demo/pages/animation/fade-widget/FadeInOutApp.dar
 import 'package:flutter_layout_demo/pages/animation/route-transition/screen-one.dart';
 import 'package:flutter_layout_demo/pages/design/Demos.dart';
 import 'package:flutter_layout_demo/pages/design/drawer-app/DrawerApp.dart';
+import 'package:flutter_layout_demo/pages/design/orientation/OrientationBasedApp.dart';
 import 'package:flutter_layout_demo/pages/design/snackbar/SnackbarApp.dart';
 import 'package:flutter_layout_demo/pages/home.dart';
 import 'package:flutter_layout_demo/pages/layout/layout.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
           '/design': (context) => DesignDemos(),
           '/design/drawer-app': (context) => DrawerApp(),
           '/design/snackbar': (context) => SnackbarApp(),
+          '/design/orientation': (context) => OrientationBasedApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),
@@ -48,7 +50,15 @@ class MyApp extends StatelessWidget {
           '/network': (context) => PostApp()
         },
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          brightness: Brightness.dark,
+          primaryColor: Colors.lightBlue[800],
+          accentColor: Colors.cyan[600],
+          fontFamily: 'Raleway',
+          textTheme: TextTheme(
+              headline: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+              title: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
+              body1: TextStyle(fontSize: 14.0, fontFamily: 'Hind')),
+          // primarySwatch: Colors.blue,
         ),
         home: Home());
   }

@@ -19,6 +19,12 @@ class DesignDemos extends StatelessWidget {
               Navigator.pushNamed(context, '/design/snackbar');
             },
           ),
+          ListTile(
+            title: Text('Orientation Based App'),
+            onTap: () {
+              Navigator.pushNamed(context, '/design/orientation');
+            },
+          ),
         ],
       ),
     );
