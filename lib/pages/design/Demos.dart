@@ -25,6 +25,12 @@ class DesignDemos extends StatelessWidget {
               Navigator.pushNamed(context, '/design/orientation');
             },
           ),
+          ListTile(
+            title: Text('Tabs App'),
+            onTap: () {
+              Navigator.pushNamed(context, '/design/tabs');
+            },
+          ),
         ],
       ),
     );

@@ -7,6 +7,7 @@ import 'package:flutter_layout_demo/pages/design/Demos.dart';
 import 'package:flutter_layout_demo/pages/design/drawer-app/DrawerApp.dart';
 import 'package:flutter_layout_demo/pages/design/orientation/OrientationBasedApp.dart';
 import 'package:flutter_layout_demo/pages/design/snackbar/SnackbarApp.dart';
+import 'package:flutter_layout_demo/pages/design/tabs-app/TabsApp.dart';
 import 'package:flutter_layout_demo/pages/home.dart';
 import 'package:flutter_layout_demo/pages/layout/layout.dart';
 import 'package:flutter_layout_demo/pages/navigation/data-to-new-screen/screen_one.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
           '/design/drawer-app': (context) => DrawerApp(),
           '/design/snackbar': (context) => SnackbarApp(),
           '/design/orientation': (context) => OrientationBasedApp(),
+          '/design/tabs': (context) => TabsApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),
