@@ -31,6 +31,12 @@ class DesignDemos extends StatelessWidget {
               Navigator.pushNamed(context, '/design/tabs');
             },
           ),
+          ListTile(
+            title: Text('iOS Tabs App'),
+            onTap: () {
+              Navigator.pushNamed(context, '/design/ios-tabs');
+            },
+          ),
         ],
       ),
     );

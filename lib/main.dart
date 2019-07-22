@@ -5,6 +5,7 @@ import 'package:flutter_layout_demo/pages/animation/fade-widget/FadeInOutApp.dar
 import 'package:flutter_layout_demo/pages/animation/route-transition/screen-one.dart';
 import 'package:flutter_layout_demo/pages/design/Demos.dart';
 import 'package:flutter_layout_demo/pages/design/drawer-app/DrawerApp.dart';
+import 'package:flutter_layout_demo/pages/design/ios-tabs-app/IOSTabsApp.dart';
 import 'package:flutter_layout_demo/pages/design/orientation/OrientationBasedApp.dart';
 import 'package:flutter_layout_demo/pages/design/snackbar/SnackbarApp.dart';
 import 'package:flutter_layout_demo/pages/design/tabs-app/TabsApp.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
           '/design/snackbar': (context) => SnackbarApp(),
           '/design/orientation': (context) => OrientationBasedApp(),
           '/design/tabs': (context) => TabsApp(),
+          '/design/ios-tabs': (context) => IOSTabsApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),
@@ -52,7 +54,7 @@ class MyApp extends StatelessWidget {
           '/network': (context) => PostApp()
         },
         theme: ThemeData(
-          brightness: Brightness.dark,
+          brightness: Brightness.light,
           primaryColor: Colors.lightBlue[800],
           accentColor: Colors.cyan[600],
           fontFamily: 'Raleway',
