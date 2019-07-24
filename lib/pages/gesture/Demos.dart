@@ -18,7 +18,13 @@ class GestureDemos extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, '/gesture/handle-taps');
             },
-          )
+          ),
+          ListTile(
+            title: Text('Swipe Dissmiss'),
+            onTap: () {
+              Navigator.pushNamed(context, '/gesture/swipe-dismiss');
+            },
+          ),
         ],
       ),
     );
