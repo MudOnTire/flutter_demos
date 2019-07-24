@@ -12,7 +12,13 @@ class FormDemos extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, '/form/validation');
             },
-          )
+          ),
+          ListTile(
+            title: Text('Text field focus'),
+            onTap: () {
+              Navigator.pushNamed(context, '/form/focus-input');
+            },
+          ),
         ],
       ),
     );

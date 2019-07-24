@@ -36,6 +36,8 @@ class FormValidationState extends State<FormValidation> {
                   }
                   return null;
                 },
+                decoration: InputDecoration(labelText: 'Enter your username'),
+                autofocus: true,
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 16.0),
