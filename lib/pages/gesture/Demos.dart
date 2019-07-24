@@ -12,6 +12,12 @@ class GestureDemos extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, '/gesture/touch-ripples');
             },
+          ),
+          ListTile(
+            title: Text('Handle Taps'),
+            onTap: () {
+              Navigator.pushNamed(context, '/gesture/handle-taps');
+            },
           )
         ],
       ),

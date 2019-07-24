@@ -15,6 +15,7 @@ import 'package:flutter_layout_demo/pages/form/FormValidation.dart';
 import 'package:flutter_layout_demo/pages/form/HandleInputChange.dart';
 import 'package:flutter_layout_demo/pages/form/RetrieveInputValue.dart';
 import 'package:flutter_layout_demo/pages/gesture/Demos.dart';
+import 'package:flutter_layout_demo/pages/gesture/HandleTaps.dart';
 import 'package:flutter_layout_demo/pages/gesture/TouchRipples.dart';
 import 'package:flutter_layout_demo/pages/home.dart';
 import 'package:flutter_layout_demo/pages/layout/layout.dart';
@@ -53,6 +54,7 @@ class MyApp extends StatelessWidget {
           // gesture
           '/gesture': (context) => GestureDemos(),
           '/gesture/touch-ripples': (context) => TouchRipplesApp(),
+          '/gesture/handle-taps': (context) => HandleTapsApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),
