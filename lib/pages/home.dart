@@ -32,6 +32,12 @@ class Home extends StatelessWidget {
             },
           ),
           ListTile(
+            title: Text('Gesture'),
+            onTap: () {
+              Navigator.pushNamed(context, '/gesture');
+            },
+          ),
+          ListTile(
             title: Text('Navigation'),
             onTap: () {
               Navigator.pushNamed(context, '/navigation');
