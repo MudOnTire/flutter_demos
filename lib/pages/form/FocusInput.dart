@@ -33,7 +33,11 @@ class _FocusInputAppState extends State<FocusInputApp> {
         child: Column(
           children: <Widget>[
             TextField(autofocus: true),
-            TextField(focusNode: myFocusNode)
+            TextField(
+              focusNode: myFocusNode, 
+              onChanged: (text){
+                print(text);
+              })
           ],
         ),
       ),

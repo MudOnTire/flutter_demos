@@ -19,6 +19,12 @@ class FormDemos extends StatelessWidget {
               Navigator.pushNamed(context, '/form/focus-input');
             },
           ),
+          ListTile(
+            title: Text('Change text field value changes'),
+            onTap: () {
+              Navigator.pushNamed(context, '/form/handle-input-change');
+            },
+          )
         ],
       ),
     );
