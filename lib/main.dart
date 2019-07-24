@@ -13,6 +13,7 @@ import 'package:flutter_layout_demo/pages/form/Demos.dart';
 import 'package:flutter_layout_demo/pages/form/FocusInput.dart';
 import 'package:flutter_layout_demo/pages/form/FormValidation.dart';
 import 'package:flutter_layout_demo/pages/form/HandleInputChange.dart';
+import 'package:flutter_layout_demo/pages/form/RetrieveInputValue.dart';
 import 'package:flutter_layout_demo/pages/home.dart';
 import 'package:flutter_layout_demo/pages/layout/layout.dart';
 import 'package:flutter_layout_demo/pages/navigation/data-to-new-screen/screen_one.dart';
@@ -45,7 +46,8 @@ class MyApp extends StatelessWidget {
           '/form': (context) => FormDemos(),          
           '/form/validation': (context) => FormValidationApp(),          
           '/form/focus-input': (context) => FocusInputApp(),          
-          '/form/handle-input-change': (context) => HandleInputChangeApp(),          
+          '/form/handle-input-change': (context) => HandleInputChangeApp(),
+          '/form/retrieve-input-value': (context) => RetrieveInputValueApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),

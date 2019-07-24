@@ -24,6 +24,12 @@ class FormDemos extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, '/form/handle-input-change');
             },
+          ),
+          ListTile(
+            title: Text('Retrieve text field value'),
+            onTap: () {
+              Navigator.pushNamed(context, '/form/retrieve-input-value');
+            },
           )
         ],
       ),
