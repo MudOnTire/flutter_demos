@@ -19,6 +19,12 @@ class ListDemos extends StatelessWidget {
               Navigator.pushNamed(context, '/list/horizontal-list');
             },
           ),
+          ListTile(
+            title: Text('Grid list'),
+            onTap: () {
+              Navigator.pushNamed(context, '/list/grid-list');
+            },
+          ),
         ],
       ),
     );
