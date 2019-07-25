@@ -38,6 +38,18 @@ class Home extends StatelessWidget {
             },
           ),
           ListTile(
+            title: Text('Image'),
+            onTap: () {
+              Navigator.pushNamed(context, '/image');
+            },
+          ),
+          ListTile(
+            title: Text('List'),
+            onTap: () {
+              Navigator.pushNamed(context, '/list');
+            },
+          ),
+          ListTile(
             title: Text('Navigation'),
             onTap: () {
               Navigator.pushNamed(context, '/navigation');

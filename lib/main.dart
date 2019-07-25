@@ -19,7 +19,13 @@ import 'package:flutter_layout_demo/pages/gesture/HandleTaps.dart';
 import 'package:flutter_layout_demo/pages/gesture/SwipeDissmiss.dart';
 import 'package:flutter_layout_demo/pages/gesture/TouchRipples.dart';
 import 'package:flutter_layout_demo/pages/home.dart';
+import 'package:flutter_layout_demo/pages/image/CachedImage.dart';
+import 'package:flutter_layout_demo/pages/image/Demos.dart';
+import 'package:flutter_layout_demo/pages/image/FadeInImage.dart';
+import 'package:flutter_layout_demo/pages/image/InternetImage.dart';
 import 'package:flutter_layout_demo/pages/layout/layout.dart';
+import 'package:flutter_layout_demo/pages/list/Demos.dart';
+import 'package:flutter_layout_demo/pages/list/UseList.dart';
 import 'package:flutter_layout_demo/pages/navigation/data-to-new-screen/screen_one.dart';
 import 'package:flutter_layout_demo/pages/navigation/demos.dart';
 import 'package:flutter_layout_demo/pages/navigation/push-pop/screen_one.dart';
@@ -47,9 +53,9 @@ class MyApp extends StatelessWidget {
           '/design/tabs': (context) => TabsApp(),
           '/design/ios-tabs': (context) => IOSTabsApp(),
           // form
-          '/form': (context) => FormDemos(),          
-          '/form/validation': (context) => FormValidationApp(),          
-          '/form/focus-input': (context) => FocusInputApp(),          
+          '/form': (context) => FormDemos(),
+          '/form/validation': (context) => FormValidationApp(),
+          '/form/focus-input': (context) => FocusInputApp(),
           '/form/handle-input-change': (context) => HandleInputChangeApp(),
           '/form/retrieve-input-value': (context) => RetrieveInputValueApp(),
           // gesture
@@ -57,6 +63,14 @@ class MyApp extends StatelessWidget {
           '/gesture/touch-ripples': (context) => TouchRipplesApp(),
           '/gesture/handle-taps': (context) => HandleTapsApp(),
           '/gesture/swipe-dismiss': (context) => SwipeDismissApp(),
+          // Image
+          '/image': (context) => ImageDemos(),
+          '/image/from-internet': (context) => InternetImageApp(),
+          '/image/fade-in-image': (context) => FadeInImageApp(),
+          '/image/cached-image': (context) => CachedImageApp(),
+          // List
+          '/list': (context) => ListDemos(),
+          '/list/use-list': (context) => UseListApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),
