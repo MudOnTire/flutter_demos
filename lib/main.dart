@@ -25,6 +25,7 @@ import 'package:flutter_layout_demo/pages/image/FadeInImage.dart';
 import 'package:flutter_layout_demo/pages/image/InternetImage.dart';
 import 'package:flutter_layout_demo/pages/layout/layout.dart';
 import 'package:flutter_layout_demo/pages/list/Demos.dart';
+import 'package:flutter_layout_demo/pages/list/HorizontalList.dart';
 import 'package:flutter_layout_demo/pages/list/UseList.dart';
 import 'package:flutter_layout_demo/pages/navigation/data-to-new-screen/screen_one.dart';
 import 'package:flutter_layout_demo/pages/navigation/demos.dart';
@@ -71,6 +72,7 @@ class MyApp extends StatelessWidget {
           // List
           '/list': (context) => ListDemos(),
           '/list/use-list': (context) => UseListApp(),
+          '/list/horizontal-list': (context) => HorizontalListApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),

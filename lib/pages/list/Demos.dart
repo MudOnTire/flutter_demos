@@ -13,6 +13,12 @@ class ListDemos extends StatelessWidget {
               Navigator.pushNamed(context, '/list/use-list');
             },
           ),
+          ListTile(
+            title: Text('Horizontal list'),
+            onTap: () {
+              Navigator.pushNamed(context, '/list/horizontal-list');
+            },
+          ),
         ],
       ),
     );
