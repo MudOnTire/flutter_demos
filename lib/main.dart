@@ -34,7 +34,9 @@ import 'package:flutter_layout_demo/pages/navigation/push-pop/screen_one.dart';
 import 'package:flutter_layout_demo/pages/navigation/push-pop/screen_two.dart';
 import 'package:flutter_layout_demo/pages/navigation/returning-data/screen_one.dart';
 import 'package:flutter_layout_demo/pages/navigation/returning-data/screen_two.dart';
-import 'package:flutter_layout_demo/pages/network/post-app.dart';
+import 'package:flutter_layout_demo/pages/network/AuthenticatedRequests.dart';
+import 'package:flutter_layout_demo/pages/network/Demos.dart';
+import 'package:flutter_layout_demo/pages/network/PostApp.dart';
 
 void main() => runApp(MyApp());
 
@@ -90,7 +92,9 @@ class MyApp extends StatelessWidget {
           '/navigation/data-to-new-screen/screen-one': (context) =>
               DNSScreenOne(),
           // network
-          '/network': (context) => PostApp()
+          '/network': (context) => NetworkDemos(),
+          '/network/post-app': (context) => PostApp(),
+          '/network/authenticated-request': (context) => AuthenticatedRequestApp(),
         },
         theme: ThemeData(
           brightness: Brightness.light,
