@@ -36,6 +36,7 @@ import 'package:flutter_layout_demo/pages/navigation/returning-data/screen_one.d
 import 'package:flutter_layout_demo/pages/navigation/returning-data/screen_two.dart';
 import 'package:flutter_layout_demo/pages/network/AuthenticatedRequests.dart';
 import 'package:flutter_layout_demo/pages/network/Demos.dart';
+import 'package:flutter_layout_demo/pages/network/ParseJsonApp.dart';
 import 'package:flutter_layout_demo/pages/network/PostApp.dart';
 
 void main() => runApp(MyApp());
@@ -95,6 +96,7 @@ class MyApp extends StatelessWidget {
           '/network': (context) => NetworkDemos(),
           '/network/post-app': (context) => PostApp(),
           '/network/authenticated-request': (context) => AuthenticatedRequestApp(),
+          '/network/parse-json': (context) => ParseJsonApp(),
         },
         theme: ThemeData(
           brightness: Brightness.light,

@@ -18,7 +18,13 @@ class NetworkDemos extends StatelessWidget {
             onTap: () {
               Navigator.pushNamed(context, '/network/authenticated-request');
             },
-          )
+          ),
+          ListTile(
+            title: Text('Parse Json in background'),
+            onTap: () {
+              Navigator.pushNamed(context, '/network/parse-json');
+            },
+          ),
         ],
       ),
     );
