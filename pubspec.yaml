@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   http: 0.12.0+2
   transparent_image: ^1.0.0
+  web_socket_channel: ^1.0.14
   # cached_network_image: ^1.1.1
 
 dev_dependencies:
