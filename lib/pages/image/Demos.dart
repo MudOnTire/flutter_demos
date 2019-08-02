@@ -19,12 +19,12 @@ class ImageDemos extends StatelessWidget {
               Navigator.pushNamed(context, '/image/fade-in-image');
             },
           ),
-          ListTile(
-            title: Text('Cached image'),
-            onTap: () {
-              Navigator.pushNamed(context, '/image/cached-image');
-            },
-          )
+          // ListTile(
+          //   title: Text('Cached image'),
+          //   onTap: () {
+          //     Navigator.pushNamed(context, '/image/cached-image');
+          //   },
+          // )
         ],
       ),
     );

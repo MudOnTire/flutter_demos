@@ -19,7 +19,7 @@ import 'package:flutter_layout_demo/pages/gesture/HandleTaps.dart';
 import 'package:flutter_layout_demo/pages/gesture/SwipeDissmiss.dart';
 import 'package:flutter_layout_demo/pages/gesture/TouchRipples.dart';
 import 'package:flutter_layout_demo/pages/home.dart';
-import 'package:flutter_layout_demo/pages/image/CachedImage.dart';
+// import 'package:flutter_layout_demo/pages/image/CachedImage.dart';
 import 'package:flutter_layout_demo/pages/image/Demos.dart';
 import 'package:flutter_layout_demo/pages/image/FadeInImage.dart';
 import 'package:flutter_layout_demo/pages/image/InternetImage.dart';
@@ -69,12 +69,13 @@ class MyApp extends StatelessWidget {
           '/image': (context) => ImageDemos(),
           '/image/from-internet': (context) => InternetImageApp(),
           '/image/fade-in-image': (context) => FadeInImageApp(),
-          '/image/cached-image': (context) => CachedImageApp(),
+          // '/image/cached-image': (context) => CachedImageApp(),
           // List
           '/list': (context) => ListDemos(),
           '/list/use-list': (context) => UseListApp(),
           '/list/horizontal-list': (context) => HorizontalListApp(),
           '/list/grid-list': (context) => GridListApp(),
+          // '/list/different-item-list': (context) => DifferentItemListApp(),
           // animation
           '/animation': (context) => AnimationDemos(),
           '/animation/page-transition': (context) => RTScreenOne(),

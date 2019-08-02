@@ -25,6 +25,12 @@ class ListDemos extends StatelessWidget {
               Navigator.pushNamed(context, '/list/grid-list');
             },
           ),
+          ListTile(
+            title: Text('List with different types of items'),
+            onTap: () {
+              Navigator.pushNamed(context, '/list/different-item-list');
+            },
+          ),
         ],
       ),
     );
